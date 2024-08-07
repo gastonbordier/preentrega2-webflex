@@ -1,0 +1,105 @@
+/* Estilos generales */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: light;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: 1350px;
+}
+
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: light;
+}
+
+/* Estilos Header */
+
+table.navbar span.logo {
+    padding: 5px 50px;
+    margin: 5px;
+}
+
+.divider {
+    height: 50px;
+}
+
+
+table.navbar button.menu-item {
+    margin: 0px 20px;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    background-color: transparent;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+
+}
+
+table.navbar button.first {
+    margin-left: 230px;
+}
+
+
+table.navbar span.menu-item:hover {
+    background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+    background-color: #ccc2a6;
+}
+
+table.navbar span.menu-item:active {
+    position: relative;
+    top: 1px;
+}
+
+/* Estilos del footer */
+
+footer {
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: light;
+    font-size: 13px;
+}
+
+footer table tr td ul {
+    margin: 8px 120px;
+    text-align: end;
+}
+
+/* Estilos del Home */
+
+.hero {
+    width: 98vw;
+}
+
+/* Estilos del Catalogo */
+
+img.catalog {
+    height: 600px;
+}
+
+.arrow-upward {
+    margin-left: 100vh;
+}
+
+/* Estilos de Acerca de Nosotros */
+
+main.about-us section {
+    margin: 45px;
+}
